@@ -5,15 +5,14 @@
 <br><br>
 
 ![nomad-room](https://github.com/steinerstt/screenshots-projects/blob/main/nomad-room/nomad-room-gif.gif)
-> A Kenzie Hub é a TodoList dos desenvolvedores. Os desenvolvedores podem se cadastrar e adicionar as tecnologias que se tem conhecimento e o seu nível de experiência com elas. 
+> A nomadRoom é uma plataforma que visa facilitar a vida de pessoas que querem dividir um quarto.
 
 ## 🔰 Ao Vivo
 Para acessar o deploy <a href="https://nomadroom.vercel.app/" target="_blank" > Clique Aqui! </a>
 
 ## 🌐 Api's
-<a href="https://github.com/Kenzie-Academy-Brasil-Developers/kenziehub-api" target="_blank"> API </a> fornecida pela Kenzie Academy Brasil™
-Foi utilizada uma >a href="" target="_blank"> FAKE API </a> com JSON-Server
-Também foi utilizada 
+- Foi utilizada uma <a href="https://github.com/steinerstt/json-server-nomad-room" target="_blank"> FAKE API </a> com JSON-Server
+- Fou utilizada a API pública <a href="https://viacep.com.br/" target_blank> ViaCep </a> 
  
 
 
