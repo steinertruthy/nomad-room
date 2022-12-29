@@ -1,46 +1,117 @@
-# Getting Started with Create React App
+#  Nomad Rom
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![GitHub](https://img.shields.io/github/license/steinerstt/nomad-room?style=for-the-badge)
+![Website](https://img.shields.io/website?color=gree&label=Status&style=for-the-badge&up_message=finalizado&url=https://github.com/steinerstt/nomad-room)
+<br><br>
 
-## Available Scripts
+![nomad-room](https://github.com/steinerstt/screenshots-projects/blob/main/nomad-room/nomad-room-gif.gif)
+> A Kenzie Hub é a TodoList dos desenvolvedores. Os desenvolvedores podem se cadastrar e adicionar as tecnologias que se tem conhecimento e o seu nível de experiência com elas. 
 
-In the project directory, you can run:
+## 🔰 Ao Vivo
+Para acessar o deploy <a href="https://nomadroom.vercel.app/" target="_blank" > Clique Aqui! </a>
 
-### `yarn start`
+## 🌐 Api's
+<a href="https://github.com/Kenzie-Academy-Brasil-Developers/kenziehub-api" target="_blank"> API </a> fornecida pela Kenzie Academy Brasil™
+Foi utilizada uma >a href="" target="_blank"> FAKE API </a> com JSON-Server
+Também foi utilizada 
+ 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
+## 🍒 Layout
+<a href="https://www.figma.com/file/NctywDLvphWfTT8saxBJZV/NomadRoom?node-id=0%3A1&t=6g69dZ4a5adpOBCX-1" target="_blank" > Figma </a> feito por mim xD 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+## 📌 Features
+- [x] Página inicial
+  - [x] Listagem dos quartos
+    - [x] Scroll Infinito
+- [x] Cadastro de usuário
+  - [x] Possibilidade do usuário se cadastrar na plataforma
+- [x] Login
+  - [x] Possibilidade o usuário fazer login na plataforma
+    - [x] Verificar se o usuário está validado, caso não, mandar para página de validação (finalizar cadastro)
+- [x] Finalizar cadastro
+  - [x] o usuário devera informa a URL da foto e uma breve descrição sobre
+- [x] Dashboard inicial
+  - [x] Listagem de todos os quartos
+  - [x] Pesquisar qaurtos por estados
+    - [x] Uma lista com todos os estados disponíveis na plataforma de acordo com a pesquisa do usuário
+    - [x] Listar todos os quarto de acordo com o estado escolhido pelo usuário
+  - [x] O usuário poderá favoritar quartos
+- [x] Página de cadastro de quarto
+- [x] Página de visualização do quarto
+  - [x] o Usuário poderá visualizar todas as informações do quarto
+  - [x] o usuário poderá entrar em contado por whastApp com o dono do quarto
+- [x] Página de favoritos
+  - [x] Listagem de todos os quartos favoritados pelo usuário
+   
+   
+## 🛠️ Tecnologias
+ Este projeto foi desenvolvido com as seguintes tecnologias
+- React
+- TypeScript
+- Axios
+- React-router-dom
+- React-hook-form
+- Yup
+- Styled-components
+- React-icons
+- React-toastify
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚀 Executando o projeto localmente
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 💻 Pré-requisitos
+Para rodar o projeto é necessário que você tenha instalado na sua máquina as seguintes ferramentas:
+- Git
+- Node.js
+- VSCode
+- Yarn (Recomendado)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 💿 Rodando
+```bash
+# Clone este repositório através do terminal
+$ git clone git@github.com:steinerstt/nomad-room.git
 
-### `yarn eject`
+# Acesse a pasta do projeto
+$ cd nomad-room
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# Instale as dependências do projeto - com yarn OU npm
+$ yarn install
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+$ npm install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# Rode o projeto - com yarn OU npm 
+$ yarn start
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+$ npm start
+```
 
-## Learn More
+<br>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📸 Screenshots
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Página inicial](https://github.com/steinerstt/screenshots-projects/blob/main/nomad-room/home.jpg)
+
+![Página de cadastro de usuário](https://github.com/steinerstt/screenshots-projects/blob/main/nomad-room/register.jpg?raw=true)
+
+![Página de login](https://github.com/steinerstt/screenshots-projects/blob/main/nomad-room/login.jpg?raw=true)
+
+![Página de validação de usuário](https://github.com/steinerstt/screenshots-projects/blob/main/nomad-room/validation-user.jpg)
+
+![Dashboard com os quartos disponíveis](https://github.com/steinerstt/screenshots-projects/blob/main/nomad-room/dashboard.jpg?raw=true)
+
+![Dashboard com o seletor de esdados aberto](https://github.com/steinerstt/screenshots-projects/blob/main/nomad-room/dashboard-search-open.jpg?raw=true)
+
+![Dashboard com o menu do usuário aberto](https://github.com/steinerstt/screenshots-projects/blob/main/nomad-room/dashboard-user-menu-open.jpg?raw=true)
+
+![Página de cadastro de quarto para disponibilização](https://github.com/steinerstt/screenshots-projects/blob/main/nomad-room/add-room.jpg?raw=true)
+
+![Página de quartos favoritos do usuário](https://github.com/steinerstt/screenshots-projects/blob/main/nomad-room/favorites-rooms.jpg?raw=true)
+
+<br>
+
+## 📄 Licença
+Este projeto está sob a licença do MIT - veja o arquivo [LICENSE](https://github.com/steinerstt/nomad-room/blob/main/LICENSE) para detalhes.
+
+Feito com ❤ por [Steiner](https://github.com/steinerstt)
